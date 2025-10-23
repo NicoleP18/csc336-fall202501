@@ -1,0 +1,142 @@
+
+body {
+  background: linear-gradient(rgb(247, 189, 135), rgb(247, 107, 0));
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+}
+
+
+h1 {
+  padding: 10px;
+  background: repeating-linear-gradient(rgb(242, 121, 0), rgb(255, 202, 168));
+  text-align: center;
+  border-radius: 20px;
+  font-size: 5vw; 
+  text-shadow: 2px 2px 4px rgb(255, 72, 0);
+  box-shadow: 2px 2px 4px rgb(255, 89, 0);
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 10vw;
+  text-shadow: 2px 2px 4px rgb(255, 72, 0);
+  margin: 10px 0;
+}
+
+
+p {
+  background: repeating-linear-gradient(rgb(251, 181, 138), rgb(242, 121, 0));
+  text-align: center;
+  border-radius: 20px;
+  line-height: 1.5;
+  font-size: 1.3em;
+  text-shadow: 2px 2px 4px rgb(255, 72, 0);
+  box-shadow: 2px 2px 4px rgb(255, 89, 0);
+  padding: 20px;
+  margin: 10px auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+
+h3 {
+  font-size: 3vw;
+  text-shadow: 2px 2px 4px rgb(255, 72, 0);
+  margin-bottom: 10px;
+  margin-top:10px;
+  text-align: center;
+}
+
+
+ol, ul {
+  font-size: 1.3em;
+  text-shadow: 2px 2px 4px rgb(255, 72, 0);
+}
+
+ol li, ul li {
+  margin-bottom: 10px;
+}
+
+
+.rules-competition {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 40px auto;
+  flex-wrap: wrap; 
+}
+
+.section {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 20px;
+  width: 350px;
+  max-width: 90%;
+  text-align: left;
+}
+
+
+a{
+    padding: 10px;
+  background: repeating-linear-gradient(rgb(242, 121, 0), rgb(255, 202, 168));
+  text-align: center;
+  border-radius: 20px;
+  font-size: 4vw; 
+  text-shadow: 2px 2px 4px rgb(255, 72, 0);
+  box-shadow: 2px 2px 4px rgb(255, 89, 0);
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 9vw;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 14vw;
+  }
+
+  p {
+    width: 90%;
+    font-size: 1em;
+  }
+
+  .rules-competition {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .section {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 10vw;
+  }
+
+  h2 {
+    font-size: 16vw;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+
+  h3 {
+    font-size: 7vw;
+  }
+}
